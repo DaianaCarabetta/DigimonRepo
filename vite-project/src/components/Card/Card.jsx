@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Card = ({ digimon }) => {
-  debugger;
+  
   return (
     <Link to={`/detail/${digimon.name}`}>
       <div>
